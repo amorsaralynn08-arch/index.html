@@ -1,0 +1,36 @@
+* {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+  font-size: medium;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blueviolet;
+}
+
+ul > li {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: aqua;
+}
+
+#cartoons_place+p{
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+     color: darkslateblue;
+}
+a{
+     color: rgb(187, 16, 39);
+}
+h1+nav{
+    background-color: chocolate;
+    text-align: center;
+}
+.container{
+width: 60%;
+margin: auto;
+padding: 20px;
+background-color: coral;
+border-radius: 10px;
+
+}
