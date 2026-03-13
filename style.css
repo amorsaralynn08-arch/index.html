@@ -62,3 +62,21 @@ form label{
 form input{
     padding: 6px;
 }
+.gallery_sector{
+    
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    text-align: center;
+
+}
+ .gallery_sector img {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    margin: 6px;
+
+ }
+ .button{
+    
+ }
