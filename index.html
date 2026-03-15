@@ -1,49 +1,156 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Novatech Solutions</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav aria-label="Main Navigation">
-        <h1 class="logo"> NOVATECH</h1>
-        </nav>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <h1 class="logo">NOVATECH SOLUTIONS</h1>
+  <body>
+    <div id="grid-container">
+    <header class="header">
+      <nav aria-label="Main Navigation">
+        
+      </nav>
     </header>
-    <main>
-        <aside>
-<ul>
-    <li>
-        <a href="#home">HOME</a>
-    </li>
-    <li>
-        <img src="" alt="">
-        <a href="#services">OUR SERVICES</a>
-    </li>
+  
+      <aside class="sidebar">
+        <ul>
+          <li>
+            <a href="#home">HOME</a>
+          </li>
+          <li>
+            <a href="#services">OUR SERVICES</a>
+          </li>
 
-    <li>
-        <a href="#about-us">ABOUT US</a>
-    </li>
-    <li>
-        <a href="#contact">CONTACT US</a>
-    </li>
-</ul>
+          <li>
+            <a href="#about-us">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#contact">CONTACT US</a>
+          </li>
+           <li id='nav-acc'>account
+            <ul id="nav-dropdown">
+                <li>profile</li>
+                <li>settings</li>
+                </ul>
+        </ul>
+        <div id="images">
+          <img src="/images/iphone.jpg" alt="iphone" width="300px" height="200px">
+          <img src="/images/globe-tech.jpg" alt="tech" width="300px" height="200px">
+        </div>
+      </aside>
+      <main class="main">
+      <section id="home">
+        <h2>Empowering businesses through Technology</h2>
+        <p>
+          At NovaTech we build intelligent software solutions that help
+          companies automate and process faster
+        </p>
 
+        <button>GET STARTED</button>
+      </section>
 
-        </aside>
-<section id="home">
-    <h2>Empowering businesses through Technology</h2>
-    <p>At NovaTech we build intelligent software solutions that help companies automate and process faster</p>
+      <section id="services">
+        <h2>Our Services</h2>
+        <div id="text-card">
+          <h3><strong> Web design and development</strong></h3>
+          <p>
+            We design and build mordern responsive websites tailoured just how
+            you like it. Our team focuses on clean design fast performance and
+            user friendly navigation around your website.
+          </p>
+        </div>
+        <div id="text-card">
+          <h3><strong>Software Solutions</strong></h3>
+          <p>
+            we develop tailoured software solutions that solve real life
+            challanges. our solutions are designed to improve efficience and
+            navigation.
+          </p>
+        </div>
+        <div id="text card">
+          <h3><strong>IT Consulting</strong></h3>
+          <p>
+            we help business make smart and profitable technology decisions. we
+            guide on what language to use during web development.We provide
+            experte mentoring in digital teech strategies.
+          </p>
+        </div>
+        <div id="text-card">
+          <h3><strong>Technical support</strong></h3>
+          <p>
+            we provide ongoing support, software updates and maintanance to
+            ensure your systems run smoothly and your information remains secure
+            safe updated and functional.
+          </p>
+        </div>
+      </section>
 
-    <button>GET STARTED</button>
-    </section>
+      <section id="about">
+        <h2>ABOUT US</h2>
+        <p>
+          NovaTech Solutions is focused on delivering innovative digital
+          solutions for businesses worldwide.
+        </p>
+        <img src="/images/globe-tech.jpg" alt="photo" width="100px" height="100px">
+      </section>
+       
+      <section id="contact">
+        <h2>CONTACT US!</h2>
+        <form action="thank.html" method="post" class="form-page">
+       <p> please fill this form</p>
+<label for="name">Name</label>
+<br>
+<input type="text" name="name" id="name" required>
+<br>
+<label for="username">username</label>
+<br>
+<input type="text" name="username" id="username" maxlength="15" required>
+<br>
+<label for="phonenumber">phone number</label>
+<br>
+<input type="text"maxlength="10" required>
+<br>
+<label for="email">email</label>
+<br>
+<input type="email" name="email" id="email" required>
+<br>
+<label for="password">password</label>
+<br>
+<input type="password" name="password" id="password" required>
+<br>
+<p>choose your gender</p>
+<label for="female">female</label>
+<input type="radio"name="gender" value="female">
+<label for="male">male</label>
+<input type="radio" name="gender" value="male"> 
+<br>
+<label for="country"> choose country</label>
+<select name="country" id="country">
+<option value="congo">Congo</option>
+<option value="Kenya">Kenya</option>
+<option value="Tanzania">Tanzania</option>
+<option value="uganda">Uganda</option>
+<option value="America">America</option>
+<option value="Germany">Germany</option>
+<option value="France">France</option>
+<option value="China">China</option>
+</select>
+<button type="submit"> SUBMIT</button>
+   </form>
+   </section>
+   </main>
 
-    <section id="services">
-
-    </section>
-    </main>
-    
-</body>
+   <footer class="footer">
+<p>
+    copyright 2026 NovaTech Solutions
+</p>
+<div id="socials">
+    <a href="https://www.instagram.com/__novatech.solutions__/">instagram</a>
+</div>
+   </footer>
+</div>
+  </body>
 </html>
